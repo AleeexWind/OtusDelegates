@@ -28,4 +28,4 @@ Func<string, float> convertToNumber = (n) =>
     return float.Parse(n, CultureInfo.InvariantCulture.NumberFormat);
 };
 
-string maxElem = numbersAsString.GetMax(convertToNumber);
+Console.WriteLine($"The biggest digit is: {numbersAsString.GetMax(convertToNumber)}");
