@@ -11,9 +11,9 @@ ff.FileFound += (s, e) =>
     Console.WriteLine($"File has been found. File name: {e.FileName}");
 };
 
-string directory = @"C:\";
+string directory = @"D:\Temp";
 
-ff.SearchFiles("directory");
+ff.SearchFiles(directory);
 
 
 
