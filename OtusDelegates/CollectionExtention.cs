@@ -9,7 +9,7 @@
             {
                 throw new ArgumentNullException("Collection is null");
             }
-            if (collection == null)
+            if (collection.Count() == 0)
             {
                 throw new ArgumentException("Collection is empty");
             }
